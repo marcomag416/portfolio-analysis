@@ -1,0 +1,7 @@
+.venv
+.claude
+data/*
+__pycache__/
+*.log
+*.tmp
+

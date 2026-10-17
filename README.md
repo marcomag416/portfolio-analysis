@@ -66,6 +66,8 @@ Same investor and risk level as `portfolio_choice` §7 (30% bad-case drawdown).
 | `design.py` | Index universe, screening statistics, cost measurement, weighting methods, bootstrap simulation |
 | `pfutils.py` | Data loaders (Yahoo, MSCI, ECB, Bundesbank, FRED, Fama–French) with parquet cache; stats; PAC simulator |
 | `dump_outputs.py` | Prints an executed notebook's tables as flat text |
+| `fetch_msci.py` | One-off fetch of MSCI index series into the `data/` cache |
+| `probe*.py` | Scratch scripts for ad hoc checks during analysis — not part of the reproducible pipeline |
 | `data/` | Download cache. Delete `data/*.parquet` to refresh |
 
 Rebuild and re-execute:
